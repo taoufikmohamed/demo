@@ -26,6 +26,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+      <distributionManagement>
+        <repository>
+            <id>local-repo</id>
+            <url>file:///C:/maven-repo/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>local-snapshot-repo</id>
+            <url>file:///C:/maven-repo/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
